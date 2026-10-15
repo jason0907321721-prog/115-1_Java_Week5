@@ -17,7 +17,9 @@ public class Ex1 {
 		for (i = 1; i <= 5; i++) 
 		{
 		 for (j=1;j<=5-2*Math.abs(i-3);j++)
+                 {
 			 System.out.print("*");
+                 }
 		 System.out.println();
 		}
 	}
